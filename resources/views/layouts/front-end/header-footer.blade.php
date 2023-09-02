@@ -15,15 +15,15 @@
             <meta name="description" content="">
             <meta name="author" content="">
             <!-- bootstrap css -->
-            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
             <!-- style css -->
-            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
             <!-- Responsive-->
-            <link rel="stylesheet" href="css/responsive.css">
+            <link rel="stylesheet" href="assets/css/responsive.css">
             <!-- fevicon -->
-            <link rel="icon" href="images/fevicon.png" type="image/gif" />
+            <link rel="icon" href="assets/images/fevicon.png" type="image/gif" />
             <!-- Scrollbar Custom CSS -->
-            <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+            <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
             <!-- Tweaks for older IEs-->
             <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
             <!-- fonts -->
@@ -33,8 +33,8 @@
             <!--  -->
             <!-- owl stylesheets -->
             <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
-            <link rel="stylesheet" href="css/owl.carousel.min.css">
-            <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesoeet" href="assets/css/owl.theme.default.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
          </head>
          <body>
@@ -64,7 +64,7 @@
                   <div class="container">
                      <div class="row">
                         <div class="col-sm-12">
-                           <div class="logo"><a href="index.html">Electrical appliances</a></div>
+                           <div class="logo"><a href="welcome">Electrical appliances</a></div>
                         </div>
                      </div>
                   </div>
@@ -76,12 +76,12 @@
                      <div class="containt_main">
                         <div id="mySidenav" class="sidenav">
                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                           <a href="index.html">Home</a>
+                           <a href="/">Home</a>
                            <a href="fashion.html">Testing Records</a>
                            <a href="electronic.html">Electronic</a>
                            <a href="jewellery.html">CPRI</a>
                         </div>
-                        <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
+                        <span class="toggle_icon" onclick="openNav()"><img src="assets/images/toggle-icon.png"></span>
                         <div class="dropdown">
                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Modular Testing
                            </button>
@@ -106,11 +106,11 @@
                         <div class="header_box">
                            <div class="lang_box ">
                               <a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
-                              <img src="images/flag-uk.png" alt="flag" class="mr-2 " title="United Kingdom"> English <i class="fa fa-angle-down ml-2" aria-hidden="true"></i>
+                              <img src="assets/images/flag-uk.png" alt="flag" class="mr-2 " title="United Kingdom"> English <i class="fa fa-angle-down ml-2" aria-hidden="true"></i>
                               </a>
                               <div class="dropdown-menu ">
                                  <a href="#" class="dropdown-item">
-                                 <img src="images/flag-france.png" class="mr-2" alt="flag">
+                                 <img src="assets/images/flag-france.png" class="mr-2" alt="flag">
                                  French
                                  </a>
                               </div>
@@ -174,27 +174,7 @@
                <!-- banner section end -->
             </div>
             <!-- banner bg main end -->
-            <!-- fashion section start -->
-            <div class="fashion_section">
-               <div id="main_slider" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <div class="container">
-                           <h1 class="fashion_taital">Man & Woman Fashion</h1>
-                           <div class="fashion_section_2">
-                              <div class="row">
-                                 <div class="col-lg-4 col-sm-4">
-                                    <div class="box_main">
-                                       <h4 class="shirt_text">Man T -shirt</h4>
-                                       <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
-                                       <div class="tshirt_img"><img src="images/tshirt-img.png"></div>
-                                       <div class="btn_main">
-                                          <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                          <div class="seemore_bt"><a href="#">See More</a></div>
-                                       </div>
-                                    </div>
-                                 </div>
-
+           
                               @yield('body')
 
 
@@ -227,14 +207,14 @@
       </div>
       <!-- copyright section end -->
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/jquery-3.0.0.min.js"></script>
+      <script src="assets/js/plugin.js"></script>
       <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="assets/js/custom.js"></script>
       <script>
          function openNav() {
          document.getElementById("mySidenav").style.width = "250px";
