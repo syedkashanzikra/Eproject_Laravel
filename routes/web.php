@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/header', function () {
-    return view('layouts.front-end.header-footer');
+Route::get('/index', function () {
+    return view('layouts.front-end.index');
 });
 
 Route::middleware([

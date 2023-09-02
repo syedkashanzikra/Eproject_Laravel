@@ -24,6 +24,8 @@
             <link rel="icon" href="assets/images/fevicon.png" type="image/gif" />
             <!-- Scrollbar Custom CSS -->
             <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+            {{-- Index.css linked --}}
+            <link rel="stylesheet" href="assets/css/index.css">
             <!-- Tweaks for older IEs-->
             <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
             <!-- fonts -->
@@ -183,8 +185,14 @@
       <div class="footer_section layout_padding">
          <div class="container">
             <div class="input_bt">
-               <input type="text" class="mail_bt" placeholder="Your Email" name="Your Email">
-               <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>
+               <!-- Contact Us Form -->
+         <form id="contactForm" action="#" method="POST">
+            <input type="text" class="mail_bt" placeholder="Your Name" name="name">
+            <input type="email" class="mail_bt" placeholder="Your Email" name="email">
+            <textarea class="mail_bt" placeholder="Your Message" name="message"></textarea>
+            <button type="submit" class="subscribe_bt" id="basic-addon2">Contact Us</button>
+         </form>
+         <!-- End Contact Us Form -->
             </div>
             <div class="footer_menu">
                <ul>

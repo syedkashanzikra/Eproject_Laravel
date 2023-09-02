@@ -218,6 +218,19 @@ button {
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative; /* Add this */
+}
+
+.banner_bg_main::before { /* Create a pseudo-element to overlay */
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5 makes it semi-transparent) */
+    pointer-events: none;
 }
 
 
