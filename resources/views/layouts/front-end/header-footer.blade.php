@@ -1,60 +1,73 @@
-      
-      <!DOCTYPE html>
-      <html lang="en">
-         <head>
-            <!-- basic -->
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <!-- mobile metas -->
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-            <!-- site metas -->
-            <title>Electrical appliances</title>
-            <meta name="keywords" content="">
-            <meta name="description" content="">
-            <meta name="author" content="">
-            <!-- bootstrap css -->
-            <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-            <!-- style css -->
-            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-            <!-- Responsive-->
-            <link rel="stylesheet" href="assets/css/responsive.css">
-            <!-- fevicon -->
-            <link rel="icon" href="assets/images/fevicon.png" type="image/gif" />
-            <!-- Scrollbar Custom CSS -->
-            <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
-            {{-- Index.css linked --}}
-            <link rel="stylesheet" href="assets/css/index.css">
-            <!-- Tweaks for older IEs-->
-            <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-            <!-- fonts -->
-            <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-            <!-- font awesome -->
-            <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            <!--  -->
-            <!-- owl stylesheets -->
-            <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
-            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-            <link rel="stylesoeet" href="assets/css/owl.theme.default.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-         </head>
-         <body>
-            <!-- banner bg main start -->
-            <div class="banner_bg_main">
-               <!-- header top section start -->
-               <div class="container">
-                  <div class="header_section_top">
-                     <div class="row">
-                        <div class="col-sm-12">
-                           <div class="custom_menu">
-                              <ul>
-                                 <li><a href="#">Best Testers</a></li>
-                                 <li><a href="#">Test Ideas</a></li>
-                                 <li><a href="#">New Tests</a></li>
-                                 <li><a href="#">Today's Deals</a></li>
-                                 <li><a href="#">Customer Service</a></li>
-                                <li><a href="#"> @if (Route::has('login'))
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/fevicon/fevicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Lab Automation</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Lab Automation
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about"> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact">Contact Us</a>
+              </li>
+            </ul>
+            @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                     @auth
                         <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
@@ -66,184 +79,181 @@
                         @endif
                     @endauth
                 </div>
-            @endif</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- header top section start -->
-               <!-- logo section start -->
-               <div class="logo_section">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-sm-12">
-                           <div class="logo"><a href="welcome">Electrical appliances</a></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- logo section end -->
-               <!-- header section start -->
-               <div class="header_section">
-                  <div class="container">
-                     <div class="containt_main">
-                        <div id="mySidenav" class="sidenav">
-                           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                           <a href="/">Home</a>
-                           <a href="fashion.html">Testing Records</a>
-                           <a href="electronic.html">Electronic</a>
-                           <a href="jewellery.html">CPRI</a>
-                        </div>
-                        <span class="toggle_icon" onclick="openNav()"><img src="assets/images/toggle-icon.png"></span>
-                        <div class="dropdown">
-                           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Modular Testing
-                           </button>
-                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Electrical</a>
-                              <a class="dropdown-item" href="#">Mechanical</a>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                           </div>
-                        </div>
-                        
-                        <div class="main">
-                           <!-- Another variation with a button -->
-                           <div class="input-group">
-                              <input type="text" class="form-control" placeholder="Search Product by ID">
-                              <div class="input-group-append">
-                                 <button class="btn btn-secondary" type="button" style="background-color: #f26522; border-color:#f26522 ">
-                                 <i class="fa fa-search"></i>
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="header_box">
-                           <div class="lang_box ">
-                              <a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
-                              <img src="assets/images/flag-uk.png" alt="flag" class="mr-2 " title="United Kingdom"> English <i class="fa fa-angle-down ml-2" aria-hidden="true"></i>
-                              </a>
-                              <div class="dropdown-menu ">
-                                 <a href="#" class="dropdown-item">
-                                 <img src="assets/images/flag-france.png" class="mr-2" alt="flag">
-                                 French
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="login_menu">
-                              <ul>
-                                 <li><a href="#">
-                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                    <span class="padding_10">Cart</span></a>
-                                 </li>
-                                 <li><a href="#">
-                                    <i class="fa fa-user" aria-hidden="true"></i>
-                                    <span class="padding_10">Cart</span></a>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- header section end -->
-               <!-- banner section start -->
-               <div class="banner_section layout_padding">
-                  <div class="container">
-                     <div id="my_slider" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                           <div class="carousel-item active">
-                              <div class="row">
-                                 <div class="col-sm-12">
-                                    <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                                    <div class="buynow_bt"><a href="#">Buy Now</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="carousel-item">
-                              <div class="row">
-                                 <div class="col-sm-12">
-                                    <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                                    <div class="buynow_bt"><a href="#">Buy Now</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="carousel-item">
-                              <div class="row">
-                                 <div class="col-sm-12">
-                                    <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                                    <div class="buynow_bt"><a href="#">Buy Now</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
-                        <i class="fa fa-angle-left"></i>
-                        </a>
-                        <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
-                        <i class="fa fa-angle-right"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-               <!-- banner section end -->
-            </div>
-            <!-- banner bg main end -->
-           
-                              @yield('body')
-
-
-                                 
-                                 <!-- footer section start -->
-      <div class="footer_section layout_padding">
-         <div class="container">
-            <div class="input_bt">
-               <!-- Contact Us Form -->
-         <form id="contactForm" action="#" method="POST">
-            <input type="text" class="mail_bt" placeholder="Your Name" name="name">
-            <input type="email" class="mail_bt" placeholder="Your Email" name="email">
-            <textarea class="mail_bt" placeholder="Your Message" name="message"></textarea>
-            <button type="submit" class="subscribe_bt" id="basic-addon2">Contact Us</button>
-         </form>
-         <!-- End Contact Us Form -->
-            </div>
-            <div class="footer_menu">
-               <ul>
-                  <li><a href="#">Best Sellers</a></li>
-                  <li><a href="#">Gift Ideas</a></li>
-                  <li><a href="#">New Releases</a></li>
-                  <li><a href="#">Today's Deals</a></li>
-                  <li><a href="#">Customer Service</a></li>
-               </ul>
-            </div>
-            <div class="location_main">Help Line  Number : <a href="#">+1 1800 1200 1200</a></div>
-         </div>
+            @endif
+          </div>
+        </nav>
       </div>
-      <!-- footer section end -->
-      <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">© 2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
-         </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="slider_bg_box">
+        <img src="images/iStock-842452752-1.jpg" alt="">
       </div>
-      <!-- copyright section end -->
-      <!-- Javascript files-->
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/popper.min.js"></script>
-      <script src="assets/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/js/jquery-3.0.0.min.js"></script>
-      <script src="assets/js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="assets/js/custom.js"></script>
-      <script>
-         function openNav() {
-         document.getElementById("mySidenav").style.width = "250px";
-         }
-         
-         function closeNav() {
-         document.getElementById("mySidenav").style.width = "0";
-         }
-      </script>
-      </body>
-      </html>
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      Products Testing
+                    </h1>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                    Products Testing
+                    </h1>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      Products Testing
+                    </h1>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                    Products Testing
+                    </h1>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                    Products Testing
+                    </h1>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+          <li data-target="#customCarousel1" data-slide-to="2"></li>
+          <li data-target="#customCarousel1" data-slide-to="3"></li>
+          <li data-target="#customCarousel1" data-slide-to="4"></li>
+        </ol>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  @yield('body')
+
+    <!-- footer section -->
+    <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
+

@@ -21,6 +21,18 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/product', function () {
+    return view('product');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
