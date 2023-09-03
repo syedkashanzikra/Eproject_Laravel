@@ -70,6 +70,7 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
   </section>
 
   <!-- end service section -->
@@ -777,4 +778,8 @@
       </div>
     </div>
   </section>
+=======
+</section>
+<hr>    
+>>>>>>> 5e45abc64e2219ac51bcd73f4ba598a739f06a50
 @endsection
