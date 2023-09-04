@@ -474,9 +474,7 @@ a:focus {
           transform: translateY(75px);
 }
 
-.about_section .img_container .img-box.b2 {
-  margin-top: 150px;
-}
+
 
 .about_section .img_container .img-box.b2::before {
   -webkit-transform: translateY(-75px);
