@@ -70,7 +70,6 @@
         </div>
       </div>
     </div>
-<<<<<<< HEAD
   </section>
 
   <!-- end service section -->
@@ -152,7 +151,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -186,7 +185,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -220,7 +219,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -459,7 +458,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
