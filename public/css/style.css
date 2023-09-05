@@ -322,11 +322,17 @@ a:focus {
 .slider_section .detail-box .btn-box .btn2:hover {
   background-color: #541184;
 }
-
+.about-box{
+  margin-bottom: 200px;
+}
 .slider_section .img-box img {
   width: 100%;
+ 
 }
 
+.img-box img{
+  max-width: 300px!important;
+}
 .slider_section .carousel-indicators {
   position: unset;
   margin: 0;

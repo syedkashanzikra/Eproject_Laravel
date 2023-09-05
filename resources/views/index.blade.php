@@ -72,17 +72,17 @@
         <div class="col-md-6">
           <div class="img_container">
             <div class="img-box b1">
-              <img src="images/a-1.jpg" alt="">
+              <img src="images/details.jpg" alt="">
             </div>
             <div class="img-box b2">
-              <img src="images/a-2.jpg" alt="">
+              <img src="images/details-2.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="detail-box">
+          <div class="detail-box about-box">
             <h2>
-              About Our Shop
+              About Our Lab
             </h2>
             <p>
               There are many variations of passages of Lorem Ipsum
@@ -106,7 +106,7 @@
     <div class="container">
       <div class="product_heading">
         <h2>
-          Top Sale Watches
+          Approved Tests
         </h2>
       </div>
       <div class="product_container">
@@ -225,7 +225,7 @@
     <div class="container">
       <div class="product_heading">
         <h2>
-          Feature Watches
+          Tests Not Approved
         </h2>
       </div>
       <div class="product_container">
@@ -259,7 +259,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -293,7 +293,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -327,7 +327,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -345,7 +345,7 @@
     <div class="container">
       <div class="product_heading">
         <h2>
-          New Arrivals
+          New Tests
         </h2>
       </div>
       <div class="product_container">
@@ -379,7 +379,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -413,7 +413,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
