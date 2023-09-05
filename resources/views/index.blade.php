@@ -15,26 +15,8 @@
             </div>
             <div class="detail-box">
               <h5>
-                Fast Delivery
+                Fast Testing Service
               </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/feature-2.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Free Shiping
-              </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
             </div>
           </div>
         </div>
@@ -45,12 +27,21 @@
             </div>
             <div class="detail-box">
               <h5>
-                Best Quality
+                Low cost Tests
               </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
+               </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/feature-3.png" alt="">
             </div>
+            <div class="detail-box">
+              <h5>
+                Best Testing Machines
+              </h5>
+              </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
@@ -62,9 +53,7 @@
               <h5>
                 24x7 Customer support
               </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
+              
             </div>
           </div>
         </div>
