@@ -83,10 +83,10 @@
         <div class="col-md-6">
           <div class="img_container">
             <div class="img-box b1">
-              <img src="images/a-1.jpg" alt="">
+              <img src="images/u_10140687.jpg" alt="">
             </div>
             <div class="img-box b2">
-              <img src="images/a-2.jpg" alt="">
+              <img src="images/th.jpeg" alt="">
             </div>
           </div>
         </div>
