@@ -33,6 +33,10 @@ Route::get('/product', function () {
     return view('product');
 });
 
+Route::get('/test', function () {
+    return view('test');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

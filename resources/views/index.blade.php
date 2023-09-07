@@ -72,17 +72,10 @@
         <div class="col-md-6">
           <div class="img_container">
             <div class="img-box b1">
-<<<<<<< HEAD
-              <img src="images/u_10140687.jpg" alt="">
+            <img src="images/details-2.jpg" alt="">
             </div>
             <div class="img-box b2">
-              <img src="images/th.jpeg" alt="">
-=======
               <img src="images/details.jpg" alt="">
-            </div>
-            <div class="img-box b2">
-              <img src="images/details-2.jpg" alt="">
->>>>>>> 52a1c189b47465a0e5f45df90cb520f99738d067
             </div>
           </div>
         </div>
@@ -120,15 +113,15 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/w1.png" alt="">
+              <img src="images/u_10140687.jpg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Men's Watch
+                  Washing Machine
                 </h6>
                 <h5>
-                  <span>$</span> 300
+                  <span>$</span> 299
                 </h5>
               </div>
               <div class="like">
@@ -146,7 +139,7 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="test">
               Test
             </a>
           </div>
@@ -154,15 +147,15 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/w2.png" alt="">
+              <img src="images/th.jpeg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Men's Watch
+                  AC 
                 </h6>
                 <h5>
-                  <span>$</span> 300
+                  <span>$</span> 499
                 </h5>
               </div>
               <div class="like">
@@ -180,7 +173,7 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="test">
               Test
             </a>
           </div>
@@ -188,15 +181,15 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/w3.png" alt="">
+              <img src="images/fridge.jpg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Men's Watch
+                  Fridge
                 </h6>
                 <h5>
-                  <span>$</span> 300
+                  <span>$</span> 399
                 </h5>
               </div>
               <div class="like">
@@ -214,7 +207,7 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="test">
               Test
             </a>
           </div>
@@ -239,12 +232,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/w4.png" alt="">
+              <img src="images/tv-1271650_960_720.webp" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Men's Watch
+                  TV
                 </h6>
                 <h5>
                   <span>$</span> 300
@@ -259,13 +252,12 @@
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="test">
               Test
             </a>
           </div>
@@ -273,12 +265,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/w5.png" alt="">
+              <img src="images/microwave.webp" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Men's Watch
+                  Microwave-Oven
                 </h6>
                 <h5>
                   <span>$</span> 300
@@ -293,13 +285,12 @@
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="test">
               Test
             </a>
           </div>
@@ -307,12 +298,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/w6.png" alt="">
+              <img src="images/laptop.jpg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Men's Watch
+                  Laptop
                 </h6>
                 <h5>
                   <span>$</span> 300
@@ -326,14 +317,12 @@
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="test">
               Test
             </a>
           </div>
