@@ -15,26 +15,8 @@
             </div>
             <div class="detail-box">
               <h5>
-                Fast Delivery
+                Fast Testing Service
               </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/feature-2.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Free Shiping
-              </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
             </div>
           </div>
         </div>
@@ -45,12 +27,21 @@
             </div>
             <div class="detail-box">
               <h5>
-                Best Quality
+                Low cost Tests
               </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
+               </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/feature-3.png" alt="">
             </div>
+            <div class="detail-box">
+              <h5>
+                Best Testing Machines
+              </h5>
+              </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
@@ -62,9 +53,7 @@
               <h5>
                 24x7 Customer support
               </h5>
-              <p>
-                variations of passages of Lorem Ipsum available
-              </p>
+              
             </div>
           </div>
         </div>
@@ -83,17 +72,24 @@
         <div class="col-md-6">
           <div class="img_container">
             <div class="img-box b1">
+<<<<<<< HEAD
               <img src="images/u_10140687.jpg" alt="">
             </div>
             <div class="img-box b2">
               <img src="images/th.jpeg" alt="">
+=======
+              <img src="images/details.jpg" alt="">
+            </div>
+            <div class="img-box b2">
+              <img src="images/details-2.jpg" alt="">
+>>>>>>> 52a1c189b47465a0e5f45df90cb520f99738d067
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="detail-box">
+          <div class="detail-box about-box">
             <h2>
-              About Our Shop
+              About Our Lab
             </h2>
             <p>
               There are many variations of passages of Lorem Ipsum
@@ -117,7 +113,7 @@
     <div class="container">
       <div class="product_heading">
         <h2>
-          Top Sale Watches
+          Approved Tests
         </h2>
       </div>
       <div class="product_container">
@@ -236,7 +232,7 @@
     <div class="container">
       <div class="product_heading">
         <h2>
-          Feature Watches
+          Tests Not Approved
         </h2>
       </div>
       <div class="product_container">
@@ -270,7 +266,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -304,7 +300,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -338,7 +334,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -356,7 +352,7 @@
     <div class="container">
       <div class="product_heading">
         <h2>
-          New Arrivals
+          New Tests
         </h2>
       </div>
       <div class="product_container">
@@ -390,7 +386,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
@@ -424,7 +420,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Add To Cart
+              Test
             </a>
           </div>
         </div>
