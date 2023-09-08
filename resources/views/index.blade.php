@@ -348,15 +348,15 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/w7.png" alt="">
+              <img src="images/vacume.webp" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Men's Watch
+                  Vacume Cleaner
                 </h6>
                 <h5>
-                  <span>$</span> 300
+                  <span>$</span> 199
                 </h5>
               </div>
               <div class="like">
@@ -382,12 +382,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/w8.png" alt="">
+              <img src="images/smart vacume.webp" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Men's Watch
+                  Robot Vacume
                 </h6>
                 <h5>
                   <span>$</span> 300
@@ -408,7 +408,7 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="test">
               Test
             </a>
           </div>
@@ -416,12 +416,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/w9.png" alt="">
+              <img src="images/grasscutter.jpg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Men's Watch
+                  Grass Cutter
                 </h6>
                 <h5>
                   <span>$</span> 300
@@ -442,7 +442,7 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="test">
               Test
             </a>
           </div>
