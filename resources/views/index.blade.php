@@ -1,6 +1,66 @@
 @extends('layouts.front-end.header-footer')
 @section('body')
+<style>
+  /* Modal styles */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+  }
 
+  .modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    animation-name: modalFade;
+    animation-duration: 0.3s;
+  }
+
+  @keyframes modalFade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Close button styles */
+  .close {
+    float: right;
+    cursor: pointer;
+  }
+
+  /* Add some styles to the rest of the modal content */
+  .modal-header {
+    text-align: center;
+  }
+
+  .modal-body {
+    text-align: center;
+  }
+
+  .star_container {
+    text-align: center;
+  }
+
+  /* Styling for the "Test" link */
+  .open-modal {
+    text-decoration: none;
+    color: #007BFF;
+    cursor: pointer;
+  }
+
+  .open-modal:hover {
+    text-decoration: underline;
+  }
+</style>
 
 
   <!-- service section -->
@@ -89,9 +149,6 @@
               There are many variations of
               passages of Lorem Ipsum
             </p>
-            <a href="">
-              Read More
-            </a>
           </div>
         </div>
       </div>
@@ -120,13 +177,10 @@
                 <h6>
                   Washing Machine
                 </h6>
-                <h5>
-                  <span>$</span> 299
-                </h5>
               </div>
               <div class="like">
                 <h6>
-                  Like
+                  Rating
                 </h6>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -139,11 +193,27 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="test">
-              Test
+            <a href="#" class="open-modal">
+              Details
             </a>
           </div>
         </div>
+        
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+              <h2>Product Details</h2>
+            </div>
+            <div class="modal-body">
+              <h3>Washing Machine</h3>
+             <p>This Washing Machine approved because of three main reason</p>
+              <!-- Add more product details here -->
+            </div>
+          </div>
+        </div>
+
         <div class="box">
           <div class="box-content">
             <div class="img-box">
@@ -762,8 +832,34 @@
       </div>
     </div>
   </section>
-=======
+
 </section>
 <hr>    
->>>>>>> 5e45abc64e2219ac51bcd73f4ba598a739f06a50
+<script>
+   // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.querySelector(".open-modal");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
 @endsection
