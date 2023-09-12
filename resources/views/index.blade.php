@@ -193,14 +193,14 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="#" class="open-modal">
+            <a href="#" class="open-modal"  data-modal-id="myModal1">
               Details
             </a>
           </div>
         </div>
         
         <!-- Modal -->
-        <div id="myModal" class="modal">
+        <div id="myModal1" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>
             <div class="modal-header">
@@ -217,20 +217,17 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/th.jpeg" alt="">
+              <img src="images/u_10140687.jpg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  AC 
+                  Washing Machine
                 </h6>
-                <h5>
-                  <span>$</span> 499
-                </h5>
               </div>
               <div class="like">
                 <h6>
-                  Like
+                  Rating
                 </h6>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -243,28 +240,40 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="test">
-              Test
+            <a href="#" class="open-modal"  data-modal-id="myModal2">
+              Details
             </a>
+          </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="myModal2" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+              <h2>Product Details</h2>
+            </div>
+            <div class="modal-body">
+              <h3>Washing Machine</h3>
+             <p>This Washing Machine approved because of three main reason</p>
+              <!-- Add more product details here -->
+            </div>
           </div>
         </div>
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/fridge.jpg" alt="">
+              <img src="images/u_10140687.jpg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Fridge
+                  Washing Machine
                 </h6>
-                <h5>
-                  <span>$</span> 399
-                </h5>
               </div>
               <div class="like">
                 <h6>
-                  Like
+                  Rating
                 </h6>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -277,9 +286,24 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="test">
-              Test
+            <a href="#" class="open-modal"  data-modal-id="myModal3">
+              Details
             </a>
+          </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="myModal3" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+              <h2>Product Details</h2>
+            </div>
+            <div class="modal-body">
+              <h3>Washing Machine</h3>
+             <p>This Washing Machine approved because of three main reason</p>
+              <!-- Add more product details here -->
+            </div>
           </div>
         </div>
       </div>
@@ -302,22 +326,20 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/tv-1271650_960_720.webp" alt="">
+              <img src="images/u_10140687.jpg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  TV
+                  Washing Machine
                 </h6>
-                <h5>
-                  <span>$</span> 300
-                </h5>
               </div>
               <div class="like">
                 <h6>
-                  Like
+                  Rating
                 </h6>
                 <div class="star_container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -327,30 +349,90 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="test">
-              Test
+            <a href="#" class="open-modal"  data-modal-id="myModal4">
+              Details
             </a>
+          </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="myModal4" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+              <h2>Product Details</h2>
+            </div>
+            <div class="modal-body">
+              <h3>Washing Machine</h3>
+             <p>This Washing Machine approved because of three main reason</p>
+              <!-- Add more product details here -->
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-content">
+            <div class="img-box">
+              <img src="images/u_10140687.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <div class="text">
+                <h6>
+                  Washing Machine
+                </h6>
+              </div>
+              <div class="like">
+                <h6>
+                  Rating
+                </h6>
+                <div class="star_container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-box">
+            <a href="#" class="open-modal"  data-modal-id="myModal5">
+              Details
+            </a>
+          </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="myModal5" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+              <h2>Product Details</h2>
+            </div>
+            <div class="modal-body">
+              <h3>Washing Machine</h3>
+             <p>This Washing Machine approved because of three main reason</p>
+              <!-- Add more product details here -->
+            </div>
           </div>
         </div>
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/microwave.webp" alt="">
+              <img src="images/u_10140687.jpg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Microwave-Oven
+                  Washing Machine
                 </h6>
-                <h5>
-                  <span>$</span> 300
-                </h5>
               </div>
               <div class="like">
                 <h6>
-                  Like
+                  Rating
                 </h6>
                 <div class="star_container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -360,43 +442,25 @@
             </div>
           </div>
           <div class="btn-box">
-            <a href="test">
-              Test
+            <a href="#" class="open-modal"  data-modal-id="myModal6">
+              Details
             </a>
           </div>
         </div>
-        <div class="box">
-          <div class="box-content">
-            <div class="img-box">
-              <img src="images/laptop.jpg" alt="">
+        
+        <!-- Modal -->
+        <div id="myModal6" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+              <h2>Product Details</h2>
             </div>
-            <div class="detail-box">
-              <div class="text">
-                <h6>
-                  Laptop
-                </h6>
-                <h5>
-                  <span>$</span> 300
-                </h5>
-              </div>
-              <div class="like">
-                <h6>
-                  Like
-                </h6>
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-              </div>
+            <div class="modal-body">
+              <h3>Washing Machine</h3>
+             <p>This Washing Machine approved because of three main reason</p>
+              <!-- Add more product details here -->
             </div>
           </div>
-          <div class="btn-box">
-            <a href="test">
-              Test
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -404,169 +468,6 @@
 
   <!-- end product section -->
 
-
-  <!-- product section -->
-
-  <section class="product_section ">
-    <div class="container">
-      <div class="product_heading">
-        <h2>
-          New Tests
-        </h2>
-      </div>
-      <div class="product_container">
-        <div class="box">
-          <div class="box-content">
-            <div class="img-box">
-              <img src="images/vacume.webp" alt="">
-            </div>
-            <div class="detail-box">
-              <div class="text">
-                <h6>
-                  Vacume Cleaner
-                </h6>
-                <h5>
-                  <span>$</span> 199
-                </h5>
-              </div>
-              <div class="like">
-                <h6>
-                  Like
-                </h6>
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              Test
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="box-content">
-            <div class="img-box">
-              <img src="images/smart vacume.webp" alt="">
-            </div>
-            <div class="detail-box">
-              <div class="text">
-                <h6>
-                  Robot Vacume
-                </h6>
-                <h5>
-                  <span>$</span> 300
-                </h5>
-              </div>
-              <div class="like">
-                <h6>
-                  Like
-                </h6>
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="btn-box">
-            <a href="test">
-              Test
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="box-content">
-            <div class="img-box">
-              <img src="images/grasscutter.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <div class="text">
-                <h6>
-                  Grass Cutter
-                </h6>
-                <h5>
-                  <span>$</span> 300
-                </h5>
-              </div>
-              <div class="like">
-                <h6>
-                  Like
-                </h6>
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="btn-box">
-            <a href="test">
-              Test
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- end product section -->
-
-  <!-- contact section -->
-  <section class="contact_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Contact Us
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container">
-            <form action="">
-              <div>
-                <input type="text" placeholder="Your Name" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="btn_box">
-                <button>
-                  SEND
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6 ">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end contact section -->
 
 
   <!-- client section -->
@@ -696,170 +597,45 @@
   <!-- end client section -->
 
 
-  <!-- info section -->
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="info_logo">
-        <h2>
-          HandTime
-        </h2>
-      </div>
-      <div class="row">
-
-        <div class="col-md-3">
-          <div class="info_contact">
-            <h5>
-              About Shop
-            </h5>
-            <div>
-              <div class="img-box">
-                <img src="images/location-white.png" width="18px" alt="">
-              </div>
-              <p>
-                Address
-              </p>
-            </div>
-            <div>
-              <div class="img-box">
-                <img src="images/telephone-white.png" width="12px" alt="">
-              </div>
-              <p>
-                +01 1234567890
-              </p>
-            </div>
-            <div>
-              <div class="img-box">
-                <img src="images/envelope-white.png" width="18px" alt="">
-              </div>
-              <p>
-                demo@gmail.com
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info_info">
-            <h5>
-              Informations
-            </h5>
-            <p>
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="info_insta">
-            <h5>
-              Instagram
-            </h5>
-            <div class="insta_container">
-              <div class="row m-0">
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w1.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w2.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w3.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w4.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w5.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w6.png" alt="">
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="info_form ">
-            <h5>
-              Newsletter
-            </h5>
-            <form action="">
-              <input type="email" placeholder="Enter your email">
-              <button>
-                Subscribe
-              </button>
-            </form>
-            <div class="social_box">
-              <a href="">
-                <img src="images/fb.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/twitter.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/linkedin.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/youtube.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 </section>
 <hr>    
 <script>
-   // Get the modal
-  var modal = document.getElementById("myModal");
+   // Get all elements with class "open-modal"
+   var openModalLinks = document.querySelectorAll(".open-modal");
 
-  // Get the button that opens the modal
-  var btn = document.querySelector(".open-modal");
+// Add click event listener to each link
+openModalLinks.forEach(function(link) {
+  link.addEventListener("click", function() {
+    // Get the modal ID from the data-modal-id attribute
+    var modalId = this.getAttribute("data-modal-id");
+    var modal = document.getElementById(modalId);
 
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-
-  // When the user clicks the button, open the modal
-  btn.onclick = function() {
+    // Open the modal
     modal.style.display = "block";
-  }
+  });
+});
 
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
+// Get all elements with class "close"
+var closeButtons = document.querySelectorAll(".close");
+
+// Add click event listener to each close button
+closeButtons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    // Get the parent modal
+    var modal = this.closest(".modal");
+
+    // Close the modal
     modal.style.display = "none";
-  }
+  });
+});
 
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target.classList.contains("modal")) {
+    event.target.style.display = "none";
   }
+};
+
 </script>
 @endsection
