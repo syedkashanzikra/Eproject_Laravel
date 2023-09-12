@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -33,10 +35,6 @@ Route::get('/product', function () {
     return view('product');
 });
 
-Route::get('/test', function () {
-    return view('test');
-});
-
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -46,3 +44,14 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+// routes/web.php
+
+Route::get('/test', function () {
+    return view('products.create');
+});
+
+Route::get('/products/create', 'App\Http\Controllers\ProductController@create');
+Route::post('/products/', 'App\Http\Controllers\ProductController@store');
+
