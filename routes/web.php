@@ -55,3 +55,6 @@ Route::get('/test', function () {
 Route::get('/products/create', 'App\Http\Controllers\ProductController@create');
 Route::post('/products/', 'App\Http\Controllers\ProductController@store');
 
+Route::get('/admin/products', 'ProductController@index')->name('admin.products.index');
+
+
