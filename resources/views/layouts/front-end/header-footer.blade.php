@@ -54,13 +54,10 @@
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about"> About</a>
+                <a class="nav-link" href="test"> Test Your Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="product">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="testimonial">Testimonial</a>
+                <a class="nav-link" href="test">Your Pending Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact">Contact Us</a>
@@ -103,10 +100,10 @@
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
                     </p>
                     <div class="btn-box">
-                      <a href="contact" class="btn1">
+                      <a href="test" class="btn1">
                         Test Your Product Now
                       </a>
-                      <a href="about" class="btn2">
+                      <a href="test" class="btn2">
                         Check Pending Products
                       </a>
                     </div>
