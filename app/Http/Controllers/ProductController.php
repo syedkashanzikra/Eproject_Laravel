@@ -30,6 +30,7 @@ public function store(Request $request)
         'product_code' => 'required|string|max:255',
         'product_name' => 'required|string|max:255',
         'product_details' => 'required|string',
+        'status' => 'required|string',
         'product_image' => 'image|mimes:jpeg,png,jpg,gif|max:2048', // Optional: Add image validation rules
     ]);
 
@@ -40,8 +41,9 @@ public function store(Request $request)
     ]);
 
     if ($request->hasFile('product_image')) {
-        $imagePath = $request->file('product_image')->store('/storage/');
-        $product->product_image = $imagePath;
+        $file = time().'.'.$request->file('product_image')->getClientOriginalExtension();
+        $request->file('product_image')->move('productsImages/' , $file );
+        $product->product_image = $file;
     }
 
     $product->save();

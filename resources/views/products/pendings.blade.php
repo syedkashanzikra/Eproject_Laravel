@@ -1,6 +1,6 @@
 <!-- resources/views/admin/products/index.blade.php -->
-
-@section('content')
+@extends('layouts.front-end.header-footer')
+@section('body')
 <div class="container">
     <h1>Product List</h1>
     <table class="table">
@@ -19,7 +19,7 @@
                 <td>{{ $product->product_name }}</td>
                 <td>{{ $product->product_details }}</td>
                 <td>
-                    <img src="{{ asset('images/product_images/' . $product->product_image) }}" alt="{{ $product->product_name }}" width="100">
+                    <img src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}" width="100">
 
                 </td>
                 <td>
@@ -33,7 +33,6 @@
                 </td>
             </tr>
             @endforeach
-            {{ dd($products) }}
         </tbody>
     </table>
 </div>

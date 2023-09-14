@@ -223,7 +223,7 @@
     <!-- end slider section -->
   </div>
 
-  @yield('body')
+@yield('body')
 
   <!-- info section -->
   <section class="info_section layout_padding2">
