@@ -1,6 +1,8 @@
 <!-- resources/views/admin/products/index.blade.php -->
 
-@extends('layouts.admin.header-footer')
+@extends('layouts.front-end.header-footer')
+
+
 
 @section('content')
 <div class="container">

@@ -16,18 +16,19 @@
 
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="{{ asset('css/responsive.css') }}" rel="stylesheet" />
 
 </head>
 
@@ -84,7 +85,7 @@
     <!-- slider section -->
     <section class="slider_section ">
       <div class="slider_bg_box">
-        <img src="images/iStock-842452752-1.jpg" alt="">
+        <img src="{{ asset('images/iStock-842452752-1.jpg') }}" alt="">
       </div>
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">

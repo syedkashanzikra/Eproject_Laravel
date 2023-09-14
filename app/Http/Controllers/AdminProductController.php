@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Product; // Assuming you have a "Product" model
+use App\Models\Product;// Assuming you have a "Product" model
 
 class AdminProductController extends Controller
 {
