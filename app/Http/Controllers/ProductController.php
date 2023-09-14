@@ -30,7 +30,6 @@ public function store(Request $request)
         'product_code' => 'required|string|max:255',
         'product_name' => 'required|string|max:255',
         'product_details' => 'required|string',
-        'status' => 'required|string',
         'product_image' => 'image|mimes:jpeg,png,jpg,gif|max:2048', // Optional: Add image validation rules
     ]);
 
