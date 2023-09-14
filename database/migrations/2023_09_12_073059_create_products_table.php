@@ -16,7 +16,7 @@ return new class extends Migration
         $table->string('product_code')->unique();
         $table->string('product_name');
         $table->text('product_details');
-        $table->string('product_image')->nullable();
+        $table->string('product_image', 300);
         $table->timestamps();
     });
 }

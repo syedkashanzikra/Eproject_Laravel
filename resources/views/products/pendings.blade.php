@@ -20,6 +20,7 @@
                 <td>{{ $product->product_details }}</td>
                 <td>
                     <img src="{{ asset('images/product_images/' . $product->product_image) }}" alt="{{ $product->product_name }}" width="100">
+
                 </td>
                 <td>
                     @if ($product->status === 'approved')

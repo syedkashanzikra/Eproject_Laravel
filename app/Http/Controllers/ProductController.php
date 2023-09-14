@@ -40,7 +40,7 @@ public function store(Request $request)
     ]);
 
     if ($request->hasFile('product_image')) {
-        $imagePath = $request->file('product_image')->store('images/product_images');
+        $imagePath = $request->file('product_image')->store('/storage/');
         $product->product_image = $imagePath;
     }
 
