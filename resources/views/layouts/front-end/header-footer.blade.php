@@ -58,7 +58,7 @@
                 <a class="nav-link" href="test"> Test Your Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pending">Your Pending Products</a>
+                <a class="nav-link" href="/pending">Your Pending Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact">Contact Us</a>

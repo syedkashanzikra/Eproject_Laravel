@@ -42,7 +42,11 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
+        if(Auth::User()->Role==0){
         return view('dashboard');
+    }else{
+        return view('admin/products/admin');
+    }
     })->name('dashboard');
 });
 
@@ -61,6 +65,7 @@ Route::get('/admin/products/approve/{id}', 'App\Http\Controllers\AdminProductCon
 Route::get('/admin/products/reject/{id}', 'App\Http\Controllers\AdminProductController@reject')->name('admin.products.reject');
 
 Route::get('/pending', 'App\Http\Controllers\ProductController@pendings')->name('products.pendings');
+
 
 
 
