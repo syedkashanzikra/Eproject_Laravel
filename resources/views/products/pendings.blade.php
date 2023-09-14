@@ -27,8 +27,7 @@
                     @elseif ($product->status === 'rejected')
                         Rejected
                     @else
-                        <a href="{{ route('admin.products.approve', ['id' => $product->id]) }}" class="btn btn-success">Approve</a>
-                        <a href="{{ route('admin.products.reject', ['id' => $product->id]) }}" class="btn btn-danger">Reject</a>
+                       Pending
                     @endif
                 </td>
             </tr>

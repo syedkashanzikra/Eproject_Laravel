@@ -14,4 +14,19 @@ class AdminProductController extends Controller
 
         return view('admin.products.index', compact('products'));
     }
+    public function approve($id)
+{
+    $product = Product::findOrFail($id);
+    $product->update(['status' => 'approved']);
+    return redirect()->back()->with('message', 'Product approved successfully');
+}
+
+public function reject($id)
+{
+    $product = Product::findOrFail($id);
+    $product->update(['status' => 'rejected']);
+    return redirect()->back()->with('message', 'Product rejected');
+}
+
+
 }

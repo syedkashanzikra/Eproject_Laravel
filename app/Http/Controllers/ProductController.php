@@ -8,6 +8,16 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+    public function pendings()
+    {
+        $products = Product::all(); // Fetch all products
+
+        return view('products.pendings', compact('products'));
+    }
+
+
+
+    
     //
     public function create()
 {
@@ -38,4 +48,6 @@ public function store(Request $request)
 
     return redirect('/')->with('success', 'Product has been added successfully!');
 }
+   
+
 }
