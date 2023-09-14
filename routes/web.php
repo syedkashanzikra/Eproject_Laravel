@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\AdminProductController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -55,6 +56,6 @@ Route::get('/test', function () {
 Route::get('/products/create', 'App\Http\Controllers\ProductController@create');
 Route::post('/products/', 'App\Http\Controllers\ProductController@store');
 
-Route::get('/admin/products', 'AdminProductController@index')->name('admin.products.index');
+Route::get('/admin/products', 'ProductController@index')->name('admin.products.index');
 
 
