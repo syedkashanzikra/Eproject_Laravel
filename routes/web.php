@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\AdminProductController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
+
 
 
 /*
@@ -82,3 +84,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// contact
+Route::post('/submit-contact', 'App\Http\Controllers\ContactController@store')->name('contact.store');
