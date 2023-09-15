@@ -11,8 +11,11 @@ use Illuminate\Support\Facades\Auth;
 class ProductController extends Controller
 {
     public function pendings()
+    
     {
-        $products = Product::all(); // Fetch all products
+        $user = Auth::user();
+        $products = Product::where('user_id', $user->id)->get();
+        
 
         return view('products.pendings', compact('products'));
     }
