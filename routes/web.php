@@ -45,7 +45,7 @@ Route::middleware([
         if(Auth::User()->Role==0){
         return view('dashboard');
     }else{
-        return view('admin/products/admin');
+        return view('admin/index');
     }
     })->name('dashboard');
 });

@@ -1,7 +1,7 @@
 <!-- resources/views/admin/products/index.blade.php -->
-@extends('layouts.front-end.header-footer')
+@extends('admin.index')
 
-@section('body')
+@section('admin-body')
 <div class="container">
     <h1>Product List</h1>
     <table class="table">
