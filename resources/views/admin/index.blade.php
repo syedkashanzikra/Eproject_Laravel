@@ -53,13 +53,10 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li class="active"><a href="#" class="nav-link">Home</a></li>
-                  <li><a href="admin/products/  " class="nav-link">Portfolio</a></li>
+                  <li class="active"><a href="/" class="nav-link">Home</a></li>
+                  <li><a href="admin/products/  " class="nav-link">Pending Product list</a></li>
                   <li><a href="#" class="nav-link">About</a></li>
-                  <li><a href="#" class="nav-link">Services</a></li>
-                  <li><a href="#" class="nav-link">Blog</a></li>
-                  <li><a href="#" class="nav-link">Contact</a></li>
-                </ul>
+                 </ul>
               </nav>
             </div>
 
