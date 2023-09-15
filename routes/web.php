@@ -65,8 +65,20 @@ Route::get('/admin/products/approve/{id}', 'App\Http\Controllers\AdminProductCon
 Route::get('/admin/products/reject/{id}', 'App\Http\Controllers\AdminProductController@reject')->name('admin.products.reject');
 
 Route::get('/pending', 'App\Http\Controllers\ProductController@pendings')->name('products.pendings');
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+
+Auth::routes();
 
 
 
 
 
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
