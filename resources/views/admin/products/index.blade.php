@@ -1,5 +1,8 @@
 @extends('admin.index')
 @section('admin-body')
+
+
+
 <div class="container">
     <h1>Product List</h1>
     <table class="table">

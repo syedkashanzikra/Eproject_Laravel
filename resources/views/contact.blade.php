@@ -1,5 +1,5 @@
-@extends('layouts.front-end.header-footer')
-@section('body')
+@extends('layouts.front-end.header-footer-page')
+@section('body-page')
   <!-- contact section -->
   <section class="contact_section layout_padding">
     <div class="container">

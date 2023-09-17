@@ -62,9 +62,10 @@ Route::get('/test', function () {
 Route::get('/products/create', 'App\Http\Controllers\ProductController@create');
 Route::post('/products/', 'App\Http\Controllers\ProductController@store');
 
-Route::get('/admin/products', 'App\Http\Controllers\AdminProductController@index')->name('admin.products.index');
+Route::get('/admin/products', 'App\Http\Controllers\AdminProductController@index')->name('admin.products.index')->middleware('check.user.role');
 Route::get('/admin/products/approve/{id}', 'App\Http\Controllers\AdminProductController@approve')->name('admin.products.approve');
 Route::get('/admin/products/reject/{id}', 'App\Http\Controllers\AdminProductController@reject')->name('admin.products.reject');
+
 
 Route::get('/pending', 'App\Http\Controllers\ProductController@pendings')->name('products.pendings');
 Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');

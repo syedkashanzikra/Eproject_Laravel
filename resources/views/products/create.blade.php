@@ -1,8 +1,8 @@
 <!-- resources/views/products/create.blade.php -->
 
-@extends('layouts.front-end.header-footer')
+@extends('layouts.front-end.header-footer-page')
 
-@section('body')
+@section('body-page')
 <div class="container">
     <h1>Add a Product</h1>
     <form action="{{ url('/products') }}" method="POST" enctype="multipart/form-data">

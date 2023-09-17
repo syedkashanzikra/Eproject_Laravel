@@ -1,7 +1,7 @@
 <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
 
     <h1 class="mt-8 text-2xl font-medium text-gray-900">
-        Welcome to your Profile Management!
+        Welcome to your Profile Management! <a href="/"><strong style="color:blue;"> Click To Go Back</strong></a>
     </h1>
 <p class="mt-8 text-2xl font-medium text-gray-900">Click on dropdown to edit your profile</p>
 </div>

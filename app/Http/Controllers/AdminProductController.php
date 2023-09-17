@@ -9,7 +9,13 @@ use Illuminate\Support\Facades\Auth;
 
 
 class AdminProductController extends Controller
+
 {
+    public function __construct()
+{
+    $this->middleware('check.user.role');
+}
+
     public function index()
     {
         

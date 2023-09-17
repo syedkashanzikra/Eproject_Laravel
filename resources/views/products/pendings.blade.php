@@ -1,6 +1,6 @@
 <!-- resources/views/admin/products/index.blade.php -->
-@extends('layouts.front-end.header-footer')
-@section('body')
+@extends('layouts.front-end.header-footer-page')
+@section('body-page')
 <div class="container">
     <h1>Product List</h1>
     <table class="table">
