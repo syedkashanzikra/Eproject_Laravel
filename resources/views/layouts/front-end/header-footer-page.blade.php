@@ -86,12 +86,12 @@
 
 @yield('body-page')
 
-  <!-- info section -->
-  <section class="info_section layout_padding2">
+ <!-- info section -->
+ <section class="info_section layout_padding2">
     <div class="container">
       <div class="info_logo">
         <h2>
-          HandTime
+          Lab Automation
         </h2>
       </div>
       <div class="row">
@@ -99,7 +99,7 @@
         <div class="col-md-3">
           <div class="info_contact">
             <h5>
-              About Shop
+              About Lab
             </h5>
             <div>
               <div class="img-box">
@@ -133,7 +133,7 @@
               Informations
             </h5>
             <p>
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+             
             </p>
           </div>
         </div>
@@ -143,66 +143,16 @@
             <h5>
               Instagram
             </h5>
-            <div class="insta_container">
-              <div class="row m-0">
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w1.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w2.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w3.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w4.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w5.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w6.png" alt="">
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
 
         <div class="col-md-3">
           <div class="info_form ">
             <h5>
-              Newsletter
+              Send us a message 
             </h5>
-            <form action="">
-              <input type="email" placeholder="Enter your email">
-              <button>
-                Subscribe
-              </button>
-            </form>
+           
             <div class="social_box">
               <a href="">
                 <img src="images/fb.png" alt="">

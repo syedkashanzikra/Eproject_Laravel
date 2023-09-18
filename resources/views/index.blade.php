@@ -217,12 +217,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/u_10140687.jpg" alt="">
+              <img src="images/vacume.webp" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Washing Machine
+                  Vacume Clenaer
                 </h6>
               </div>
               <div class="like">
@@ -233,9 +233,7 @@
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
+                 </div>
               </div>
             </div>
           </div>
@@ -254,8 +252,8 @@
               <h2>Product Details</h2>
             </div>
             <div class="modal-body">
-              <h3>Washing Machine</h3>
-             <p>This Washing Machine approved because of three main reason</p>
+              <h3>Vacume Cleaner</h3>
+             <p>This Vacume Cleaner approved because of three main reason</p>
               <!-- Add more product details here -->
             </div>
           </div>
@@ -263,12 +261,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/u_10140687.jpg" alt="">
+              <img src="images/microwave.webp" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Washing Machine
+                  Microwave Oven
                 </h6>
               </div>
               <div class="like">
@@ -279,8 +277,7 @@
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
+                  
                 </div>
               </div>
             </div>
@@ -300,8 +297,8 @@
               <h2>Product Details</h2>
             </div>
             <div class="modal-body">
-              <h3>Washing Machine</h3>
-             <p>This Washing Machine approved because of three main reason</p>
+              <h3>Microwave Oven</h3>
+             <p>This Microwave Oven approved because of three main reason</p>
               <!-- Add more product details here -->
             </div>
           </div>
@@ -326,12 +323,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/u_10140687.jpg" alt="">
+              <img src="images/tv.png" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Washing Machine
+                  Television
                 </h6>
               </div>
               <div class="like">
@@ -340,10 +337,7 @@
                 </h6>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
+                
                 </div>
               </div>
             </div>
@@ -363,8 +357,8 @@
               <h2>Product Details</h2>
             </div>
             <div class="modal-body">
-              <h3>Washing Machine</h3>
-             <p>This Washing Machine approved because of three main reason</p>
+              <h3>Television</h3>
+             <p>This Television was not approved because of three main reason</p>
               <!-- Add more product details here -->
             </div>
           </div>
@@ -373,12 +367,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/u_10140687.jpg" alt="">
+              <img src="images/smart-vacume.webp" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Washing Machine
+                  Smart Vacume
                 </h6>
               </div>
               <div class="like">
@@ -387,10 +381,7 @@
                 </h6>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
+                  
                 </div>
               </div>
             </div>
@@ -410,8 +401,8 @@
               <h2>Product Details</h2>
             </div>
             <div class="modal-body">
-              <h3>Washing Machine</h3>
-             <p>This Washing Machine approved because of three main reason</p>
+              <h3>Smart Vacume</h3>
+             <p>This Smart Vacume was not approved because of three main reason</p>
               <!-- Add more product details here -->
             </div>
           </div>
@@ -419,12 +410,12 @@
         <div class="box">
           <div class="box-content">
             <div class="img-box">
-              <img src="images/u_10140687.jpg" alt="">
+              <img src="images/fridge.jpg" alt="">
             </div>
             <div class="detail-box">
               <div class="text">
                 <h6>
-                  Washing Machine
+                  Fridge
                 </h6>
               </div>
               <div class="like">
@@ -433,10 +424,7 @@
                 </h6>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
+                 
                 </div>
               </div>
             </div>
@@ -456,8 +444,8 @@
               <h2>Product Details</h2>
             </div>
             <div class="modal-body">
-              <h3>Washing Machine</h3>
-             <p>This Washing Machine approved because of three main reason</p>
+              <h3>Fridge</h3>
+             <p>This Fridge approved because of three main reason</p>
               <!-- Add more product details here -->
             </div>
           </div>
