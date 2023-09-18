@@ -946,3 +946,25 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+ /* Custom styles for the search form with the "searchForm" ID */
+ @media (min-width: 992px) {
+  #searchForm {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    margin-top: -30px !important;
+    margin-right: -250px; /* Center the form horizontally on the page */
+  }
+}
+
+
+  /* Custom styles for the input field */
+  #searchForm input.form-control {
+    font-size: 12px;   /* Adjust the font size as needed */
+    padding: 5px 10px; /* Adjust the padding as needed */
+  }
+
+  /* Custom styles for the "Go" button */
+  #searchForm button.btn-primary {
+    font-size: 12px;  /* Adjust the font size as needed */
+    padding: 5px 10px; /* Adjust the padding as needed */
+  }

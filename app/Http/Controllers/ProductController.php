@@ -24,6 +24,25 @@ class ProductController extends Controller
         return view('products.pendings', compact('products'));
     }
 
+    public function search(Request $request)
+{
+    if (!Auth::check()) {
+        return view('products.create');
+    }
+
+    $user = Auth::user();
+    $productCode = $request->input('product_code');
+
+    // Perform the search query using your model and filter by user_id
+    $products = Product::where('user_id', $user->id)
+        ->where('product_code', $productCode)
+        ->get();
+
+    // Pass the search results to a view and display them
+    return view('search_results', compact('products'));
+}
+
+
     public function __construct()
     {
         $this->middleware('auth')->only('store');

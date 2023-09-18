@@ -51,8 +51,8 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
-              <li class="nav-item active">
-                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="test"> Test Your Products</a>
@@ -63,6 +63,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact">Contact Us</a>
               </li>
+                   <!-- Add this code immediately after the closing </nav> tag -->
+                   <div class="search_bar ml-lg-3 text-center">
+            <button type="button" class="btn btn-sm btn-primary" id="showSearchForm">Search</button>
+            <form action="/search" method="GET" class="form-inline mt-3 mt-lg-0" id="searchForm" style="display: none;">
+              <div class="input-group">
+                <input type="text" class="form-control" name="product_code" placeholder="Search by Product Code">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-primary">Go</button>
+                </div>
+    </div>
+  </form>
+</div>
+
             </ul>
             @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
@@ -79,6 +92,11 @@
             @endif
           </div>
         </nav>
+   
+
+
+
+
       </div>
     </header>
     <!-- end header section -->
@@ -240,6 +258,13 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
+  <script>
+  // JavaScript to toggle the search form
+  document.getElementById('showSearchForm').addEventListener('click', function () {
+    const searchForm = document.getElementById('searchForm');
+    searchForm.style.display = (searchForm.style.display === 'none' || searchForm.style.display === '') ? 'block' : 'none';
+  });
+</script>
 
 </body>
 

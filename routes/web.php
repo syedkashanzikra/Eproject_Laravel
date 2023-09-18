@@ -87,3 +87,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 // contact
 Route::post('/submit-contact', 'App\Http\Controllers\ContactController@store')->name('contact.store');
+
+Route::get('/search', 'App\Http\Controllers\ProductController@search')->name('products.search');
