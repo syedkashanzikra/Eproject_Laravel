@@ -12,18 +12,25 @@
         <div class="col-md-6">
           <div class="form_container">
           <form action="{{ route('contact.store') }}" method="POST">
+            
+
+@if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
     @csrf
     <div>
-        <input type="text" name="Username" id="Username" placeholder="Your Name" />
+        <input type="text" name="Username" id="Username" placeholder="Your Name" required />
     </div>
     <div>
-        <input type="text" name="Userphone" id="Userphone" placeholder="Phone Number" />
+        <input type="text" name="Userphone" id="Userphone" placeholder="Phone Number" required/>
     </div>
     <div>
-        <input type="email" name="Useremail" id="Useremail" placeholder="Email" />
+        <input type="email" name="Useremail" id="Useremail" placeholder="Email" required />
     </div>
     <div>
-        <input type="text" name="Usermessage" id="Usermessage" class="message-box" placeholder="Message" />
+        <input type="text" name="Usermessage" id="Usermessage" class="message-box" placeholder="Message" required/>
     </div>
     <div class="btn_box">
         <button type="submit">SEND</button>
@@ -44,19 +51,4 @@
   </section>
   <!-- end contact section -->
 
-  @if ($errors->any())
-    <div class="alert alert-danger">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-@endif
-
-@if(session('success'))
-    <div class="alert alert-success">
-        {{ session('success') }}
-    </div>
-@endif
 @endsection

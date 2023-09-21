@@ -1,66 +1,6 @@
   @extends('layouts.front-end.header-footer')
   @section('body')
-  <style>
-    /* Modal styles */
-    .modal {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0,0,0,0.7);
-    }
 
-    .modal-content {
-      background-color: #fff;
-      margin: 10% auto;
-      padding: 20px;
-      max-width: 400px;
-      box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-      animation-name: modalFade;
-      animation-duration: 0.3s;
-    }
-
-    @keyframes modalFade {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    /* Close button styles */
-    .close {
-      float: right;
-      cursor: pointer;
-    }
-
-    /* Add some styles to the rest of the modal content */
-    .modal-header {
-      text-align: center;
-    }
-
-    .modal-body {
-      text-align: center;
-    }
-
-    .star_container {
-      text-align: center;
-    }
-
-    /* Styling for the "Test" link */
-    .open-modal {
-      text-decoration: none;
-      color: #007BFF;
-      cursor: pointer;
-    }
-
-    .open-modal:hover {
-      text-decoration: underline;
-    }
-  </style>
 
 
     <!-- service section -->
@@ -157,75 +97,91 @@
     <!-- end about section -->
 
 
-    <!-- product section -->
-    
-    <section class="product_section">
-    <div class="container">
-      <div class="product_heading">
-        <h2>
-          Tests
-        </h2>
-      </div>
-      <div class="row">
-      @guest
-    <h6 class="error">Login to see Products</h6>
+<!-- product section -->
+<div class="container">
+  <div class="product_heading">
+    <h2>Tests</h2>
+  </div>
+  <div>
+    @guest
+      <h6 class="error">Login to see Products</h6>
     @else
-        @foreach ($products as $product)
-        <div class="col-md-6 col-lg-3">
-          <div class="product_container">
-            <div class="box">
-              <div class="box-content">
-                <div class="img-box">
-                  <img src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
-                </div>
-                <div class="detail-box">
-                  <div class="text">
-                    <h6>
-                      {{ $product->product_code }}
-                    </h6>
-                  </div>
-                  <div class="like">
-                    <h6>
-                      {{ $product->product_name }}
-                    </h6>
-                  </div>
-                </div>
-              
-              <div class="btn-box">
-                <a href="#" class="open-modal" data-modal-id="myModal1">
-                  {{ $product->status }}
-                </a>        </div>
-                </div>
-            </div>
-          </div>
-        </div>
-          
-          
-          <!-- Modal -->
-          <div id="myModal1" class="modal">
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <div class="modal-header">
-                <h2>{{ $product->product_details }}</h2>
+      @php
+        $pendingProducts = [];
+        $approvedProducts = [];
+        $rejectedProducts = [];
+      @endphp
+
+      @foreach ($products as $product)
+        @if ($product->status === 'approved')
+          @php
+            $approvedProducts[] = $product;
+          @endphp
+        @elseif ($product->status === 'rejected')
+          @php
+            $rejectedProducts[] = $product;
+          @endphp
+        @else
+          @php
+            $pendingProducts[] = $product;
+          @endphp
+        @endif
+      @endforeach
+    <h1>Pendings</h1>
+      <!-- Display Pending Products -->
+      <div class="row">
+        @foreach ($pendingProducts as $product)
+          <div class="col-md-6 col-lg-3">
+            <div class="card product-card">
+              <img class="card-img-top" src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ $product->product_name }}</h5>
+                <p class="card-text">{{ $product->product_code }}</p>
               </div>
-              <div class="modal-body">
-              @if ($product->status === 'approved')
-                  Approved
-              @elseif ($product->status === 'rejected')
-                  Rejected
-              @else
-                  Pending
-              @endif            </div>
             </div>
           </div>
-
-          @endforeach
-          @endguest
+        @endforeach
       </div>
-    </div>
-  </section>
+    <h1>Approved</h1>
+      <!-- Display Approved Products -->
+      <div class="row">
+        @foreach ($approvedProducts as $product)
+          <div class="col-md-6 col-lg-3">
+            <div class="card product-card">
+              <img class="card-img-top" src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ $product->product_name }}</h5>
+                <p class="card-text">{{ $product->product_code }}</p>
+              </div>
+            </div>
+          </div>
+        @endforeach
+      </div>
 
-    <!-- end product section -->
+      <!-- Display Rejected Products -->
+      <h1>rejected</h1>
+      <div class="row">
+        @foreach ($rejectedProducts as $product)
+          <div class="col-md-6 col-lg-3">
+            <div class="card product-card">
+              <img class="card-img-top" src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ $product->product_name }}</h5>
+                <p class="card-text">{{ $product->product_code }}</p>
+              </div>
+            </div>
+          </div>
+        @endforeach
+      </div>
+
+      <!-- Add your additional content here -->
+      <!-- For example, you can add more rows or content here -->
+      <!-- You can also nest additional elements or rows as needed -->
+      
+    @endguest
+  </div>
+</div>
+
 
 
 
