@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use app\Models;
 
 return new class extends Migration
 {
@@ -16,7 +17,8 @@ return new class extends Migration
         $table->string('product_code')->unique();
         $table->string('product_name');
         $table->text('product_details');
-        $table->string('product_image', 300);
+        $table->string('product_image', 300)->nullable();
+        $table->enum('status', ['approved', 'rejected', 'pending'])->default('pending');        // Add the status column
         $table->timestamps();
     });
 }
