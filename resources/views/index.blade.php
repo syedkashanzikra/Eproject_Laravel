@@ -167,7 +167,9 @@
         </h2>
       </div>
       <div class="row">
-        <h6 class="error">Login to see Products</h6>
+      @guest
+    <h6 class="error">Login to see Products</h6>
+    @else
         @foreach ($products as $product)
         <div class="col-md-6 col-lg-3">
           <div class="product_container">
@@ -218,6 +220,7 @@
           </div>
 
           @endforeach
+          @endguest
       </div>
     </div>
   </section>

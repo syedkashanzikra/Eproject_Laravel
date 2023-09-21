@@ -27,7 +27,7 @@ class ProductController extends Controller
     
     {
         if (!Auth::check()) {
-            return view('subdirectory.error', ['message' => 'Please log in to create a product.']);
+            return view('index', ['message' => 'Please log in to create a product.']);
 
 
         }
