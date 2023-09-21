@@ -23,6 +23,22 @@ class ProductController extends Controller
 
         return view('products.pendings', compact('products'));
     }
+    public function index()
+    
+    {
+        if (!Auth::check()) {
+            return view('subdirectory.error', ['message' => 'Please log in to create a product.']);
+
+
+        }
+    
+        $user = Auth::user();
+        $products = Product::where('user_id', $user->id)->get();
+        
+
+        return view('index', compact('products'));
+    }
+
 
     public function search(Request $request)
 {

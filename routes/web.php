@@ -70,6 +70,7 @@ Route::get('/admin/products/reject/{id}', 'App\Http\Controllers\AdminProductCont
 Route::get('/pending', 'App\Http\Controllers\ProductController@pendings')->name('products.pendings');
 Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
 
+Route::get('/', 'App\Http\Controllers\ProductController@index')->name('index');
 Auth::routes();
 
 

@@ -9,15 +9,15 @@
         @csrf
         <div class="form-group">
             <label for="product_code">Product Code:</label>
-            <input type="text" name="product_code" id="product_code" class="form-control">
+            <input type="text" name="product_code" id="product_code" class="form-control" required>
         </div>
         <div class="form-group">
             <label for="product_name">Product Name:</label>
-            <input type="text" name="product_name" id="product_name" class="form-control">
+            <input type="text" name="product_name" id="product_name" class="form-control" required>
         </div>
         <div class="form-group">
             <label for="product_details">Product Details:</label>
-            <textarea name="product_details" id="product_details" class="form-control"></textarea>
+            <textarea name="product_details" id="product_details" class="form-control" required></textarea>
         </div>
         <div class="form-group">
             <label for="product_image">Product Image:</label>
