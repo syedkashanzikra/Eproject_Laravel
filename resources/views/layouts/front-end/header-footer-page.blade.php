@@ -20,9 +20,13 @@
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Include Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <!-- font awesome style -->
-  <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet" />
+
 
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -62,6 +66,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback">Feedback</a>
               </li>
                    <!-- Add this code immediately after the closing </nav> tag -->
                    <div class="search_bar ml-lg-3 text-center">

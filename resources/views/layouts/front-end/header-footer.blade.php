@@ -63,6 +63,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact">Contact Us</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback">Feedback</a>
+              </li> 
                    <!-- Add this code immediately after the closing </nav> tag -->
                    <div class="search_bar ml-lg-3 text-center">
             <button type="button" class="btn btn-sm btn-primary" id="showSearchForm">Search</button>
@@ -147,6 +150,8 @@
   </div>
 
 @yield('body')
+
+
 
   <!-- info section -->
   <section class="info_section layout_padding2">
@@ -244,6 +249,9 @@
     </div>
   </section>
   <!-- footer section -->
+
+  
+
 
   <!-- jQery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>

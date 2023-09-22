@@ -29,6 +29,9 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/feedback', function () {
+    return view('feedback');
+});
 
 Route::get('/about', function () {
     return view('about');
@@ -68,6 +71,7 @@ Route::get('/admin/products/reject/{id}', 'App\Http\Controllers\AdminProductCont
 
 
 Route::get('/pending', 'App\Http\Controllers\ProductController@pendings')->name('products.pendings');
+
 Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
 
 Route::get('/', 'App\Http\Controllers\ProductController@index')->name('index');
@@ -90,3 +94,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::post('/submit-contact', 'App\Http\Controllers\ContactController@store')->name('contact.store');
 
 Route::get('/search', 'App\Http\Controllers\ProductController@search')->name('products.search');
+
+
+Route::post('/feedback/store', 'App\Http\Controllers\FeedbackController@store')->name('feedback.store');
+Route::get('/feedback', 'App\Http\Controllers\FeedbackController@feedback')->name('feedback');
+
+
+
