@@ -98,9 +98,12 @@
 
 
 <!-- product section -->
+<!-- product section -->
 <div class="container">
   <div class="product_heading">
-    <h2>Tests</h2>
+    <div class="bg-primary text-white p-3 d-flex justify-content-center align-items-center rounded mb-3" >
+      <h1 class="test-center">Tests</h1>
+    </div>
   </div>
   <div>
     @guest
@@ -127,50 +130,79 @@
           @endphp
         @endif
       @endforeach
-    <h1>Pendings</h1>
+      <hr class="my-4">
+      <div class="bg-info p-2 text-white d-flex justify-content-center align-items-center rounded mb-3" style="width: 2in;">
+        <h2>Pendings</h2>
+      </div>
       <!-- Display Pending Products -->
       <div class="row">
+        @php $count = 0; @endphp
         @foreach ($pendingProducts as $product)
-          <div class="col-md-6 col-lg-3">
-            <div class="card product-card">
-              <img class="card-img-top" src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
-              <div class="card-body">
-                <h5 class="card-title">{{ $product->product_name }}</h5>
-                <p class="card-text">{{ $product->product_code }}</p>
+          @if ($count < 3)
+            <div class="col-md-6 col-lg-4"> <!-- Adjust the number of columns as needed -->
+              <div class="card product-card">
+                <img class="card-img-top" src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
+                <div class="card-body">
+                  <h5 class="card-title">{{ $product->product_name }}</h5>
+                  <p class="card-text">{{ $product->product_code }}</p>
+                </div>
               </div>
             </div>
-          </div>
+            @php $count++; @endphp
+          @endif
         @endforeach
       </div>
-    <h1>Approved</h1>
+      <div class="text-center">
+        <a href="pending" class="btn btn-success">
+          Check All Products
+        </a>
+      </div>
+      <hr class="my-4">
+      <div class="bg-success p-2 text-white d-flex justify-content-center align-items-center rounded mb-3" style="width: 2in;">
+        <h2>Approved</h2>
+      </div>
       <!-- Display Approved Products -->
       <div class="row">
+        @php $count = 0; @endphp
         @foreach ($approvedProducts as $product)
-          <div class="col-md-6 col-lg-3">
-            <div class="card product-card">
-              <img class="card-img-top" src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
-              <div class="card-body">
-                <h5 class="card-title">{{ $product->product_name }}</h5>
-                <p class="card-text">{{ $product->product_code }}</p>
+          @if ($count < 3)
+            <div class="col-md-6 col-lg-4"> <!-- Adjust the number of columns as needed -->
+              <div class="card product-card">
+                <img class="card-img-top" src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
+                <div class="card-body">
+                  <h5 class="card-title">{{ $product->product_name }}</h5>
+                  <p class="card-text">{{ $product->product_code }}</p>
+                </div>
               </div>
             </div>
-          </div>
+            @php $count++; @endphp
+          @endif
         @endforeach
       </div>
+      <hr class="my-4">
+      <div class="bg-danger text-white p-2 d-flex justify-content-center align-items-center rounded mb-3" style="width: 2in;">
+        <h2>Rejected</h2>
+      </div>
+      
+      
+      
 
       <!-- Display Rejected Products -->
-      <h1>rejected</h1>
       <div class="row">
+        @php $count = 0; @endphp
         @foreach ($rejectedProducts as $product)
-          <div class="col-md-6 col-lg-3">
-            <div class="card product-card">
-              <img class="card-img-top" src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
-              <div class="card-body">
-                <h5 class="card-title">{{ $product->product_name }}</h5>
-                <p class="card-text">{{ $product->product_code }}</p>
+          @if ($count < 3)
+            <div class="col-md-6 col-lg-4"> <!-- Adjust the number of columns as needed -->
+              <div class="card product-card">
+                <img class="card-img-top" src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}">
+                <div class="card-body">
+                  <h5 class="card-title">{{ $product->product_name }}</h5>
+                  <p class="card-text">{{ $product->product_code }}</p>
+                </div>
               </div>
             </div>
-          </div>
+            @php $count++; @endphp
+          @endif
         @endforeach
       </div>
 
@@ -181,8 +213,6 @@
     @endguest
   </div>
 </div>
-
-
 
 
     <!-- client section -->
