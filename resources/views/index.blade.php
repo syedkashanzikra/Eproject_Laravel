@@ -180,7 +180,7 @@
         @endforeach
       </div>
       <hr class="my-4">
-      <div class="bg-danger text-white p-2 d-flex justify-content-center align-items-center rounded mb-3" style="width: 2in;">
+      <div class="bg-danger  text-white p-2 d-flex justify-content-center align-items-center rounded mb-3" style="width: 2in;">
         <h2>Rejected</h2>
       </div>
       
