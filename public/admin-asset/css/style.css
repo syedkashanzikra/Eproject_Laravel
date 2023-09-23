@@ -37,9 +37,9 @@ a {
     text-decoration: none !important; }
 
 .hero {
-  height: 50vh;
+  
   width: 100%;
-  background: #eb4d55; }
+   }
 
 .site-navbar {
   margin-bottom: 0px;
@@ -381,3 +381,26 @@ a {
       .sticky-wrapper .shrink {
         padding-top: 30px !important;
         padding-bottom: 30px !important; } }
+
+
+
+        .slider_bg_box img {
+          width: 100%;
+          height: 100%;
+        }
+
+        .slider_bg_box {
+          width: 100%;
+          height: 50%;
+          z-index: -1;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: end;
+              -ms-flex-pack: end;
+                  justify-content: flex-end;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          overflow: hidden;
+        }

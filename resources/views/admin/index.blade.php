@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="{{ asset('admin-asset/fonts/icomoon/style.css') }}" >
     <link rel="stylesheet" href="{{ asset('admin-asset/css/style.css') }}">
+    
 
     <link rel="stylesheet" href="{{ asset('admin-asset/css/owl.carousel.min.css') }}">
 
@@ -66,7 +67,10 @@
         </div>
 
       </header>
-      <div class="hero"></div>
+
+      <section class="hero">
+      <div class="slider_bg_box"><img src="{{ asset('images/Consumer-Electronics-Testing.jpg') }}" alt=""></div>
+      </section>
       @yield('admin-body')
     
   
