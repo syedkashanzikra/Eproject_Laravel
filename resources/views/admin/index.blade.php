@@ -42,7 +42,7 @@
 
             <div class="col-3">
               <div class="site-logo">
-                <a href="index.html" class="font-weight-bold">Welcome</a>
+                <a href="/" class="font-weight-bold">Welcome</a>
               </div>
             </div>
 
