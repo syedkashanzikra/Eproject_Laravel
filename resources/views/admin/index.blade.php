@@ -56,6 +56,7 @@
                   <li class="active"><a href="/" class="nav-link">Home</a></li>
                   <li><a href="{{ route('admin.products.index') }}" class="nav-link">Pending Product list</a></li>
                   <li><a href="{{ route('admin.users')}}" class="nav-link">Users</a></li>
+                  <li><a href="{{ route('admin.traffic')}}" class="nav-link">Daily Traffic</a></li>
                  </ul>
               </nav>
             </div>

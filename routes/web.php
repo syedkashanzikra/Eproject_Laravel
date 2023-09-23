@@ -104,5 +104,8 @@ Route::get('/admin/users', 'App\Http\Controllers\AdminController@userList')->nam
 Route::delete('/admin/user/{id}', 'App\Http\Controllers\AdminController@deleteUser')->name('admin.user.delete');
 Route::put('/admin/user/{id}', 'App\Http\Controllers\AdminController@updateUser')->name('admin.user.update');
 
+Route::get('/admin/traffic', 'App\Http\Controllers\DailyTrafficController@index')->name('admin.traffic')->middleware('check.user.role');;
+
+
 
 
