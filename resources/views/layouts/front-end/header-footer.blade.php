@@ -119,7 +119,7 @@
                       Products Testing
                     </h1>
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
+                      Experience the future of innovation with our cutting-edge product testing services. Our rigorous and comprehensive testing procedures
                     </p>
                     <div class="btn-box">
                       <a href="test" class="btn1">
@@ -136,13 +136,6 @@
           </div>
           
         </div>
-        <ol class="carousel-indicators">
-          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-          <li data-target="#customCarousel1" data-slide-to="1"></li>
-          <li data-target="#customCarousel1" data-slide-to="2"></li>
-          <li data-target="#customCarousel1" data-slide-to="3"></li>
-          <li data-target="#customCarousel1" data-slide-to="4"></li>
-        </ol>
       </div>
 
     </section>
