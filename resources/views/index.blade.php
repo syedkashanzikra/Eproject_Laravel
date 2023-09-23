@@ -71,11 +71,11 @@
         <div class="row">
           <div class="col-md-6">
             <div class="img_container">
-              <div class="img-box b1">
-              <img src="images/details-2.jpg" alt="">
+              <div class="img-box b2">
+              <img src="images/details.jpg" alt="">
               </div>
               <div class="img-box b2">
-                <img src="images/details.jpg" alt="">
+                <img src="images/details-2.jpg" alt="">
               </div>
             </div>
           </div>
@@ -85,9 +85,24 @@
                 About Our Lab
               </h2>
               <p>
-                There are many variations of passages of Lorem Ipsum
-                There are many variations of
-                passages of Lorem Ipsum
+                Our lab is a dynamic and innovative research 
+                environment dedicated to pushing the boundaries
+                 of scientific discovery. Comprising a diverse 
+                 team of talented scientists, researchers, and 
+                 technicians, our lab is at the forefront of 
+                 cutting-edge research in fields ranging from 
+                 biotechnology and materials science to artificial 
+                 intelligence and environmental conservation. 
+                 Equipped with state-of-the-art equipment and
+                  facilities, we are committed to exploring new 
+                  frontiers, tackling complex challenges, and 
+                  developing groundbreaking solutions that have 
+                  the potential to transform industries and improve
+                   the world. Collaboration, curiosity, and a relentless
+                    pursuit of knowledge are the driving forces behind
+                     our lab's success, as we work together to unravel 
+                     the mysteries of the universe and pave the way for 
+                     a brighter and more innovative future
               </p>
             </div>
           </div>
