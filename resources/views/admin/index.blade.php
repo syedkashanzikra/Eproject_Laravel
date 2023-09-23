@@ -55,7 +55,7 @@
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li class="active"><a href="/" class="nav-link">Home</a></li>
                   <li><a href="{{ route('admin.products.index') }}" class="nav-link">Pending Product list</a></li>
-                  <li><a href="#" class="nav-link">About</a></li>
+                  <li><a href="{{ route('admin.users')}}" class="nav-link">Users</a></li>
                  </ul>
               </nav>
             </div>

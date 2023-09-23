@@ -100,4 +100,9 @@ Route::post('/feedback/store', 'App\Http\Controllers\FeedbackController@store')-
 Route::get('/feedback', 'App\Http\Controllers\FeedbackController@feedback')->name('feedback');
 
 
+Route::get('/admin/users', 'App\Http\Controllers\AdminController@userList')->name('admin.users')->middleware('check.user.role');
+Route::delete('/admin/user/{id}', 'App\Http\Controllers\AdminController@deleteUser')->name('admin.user.delete');
+Route::put('/admin/user/{id}', 'App\Http\Controllers\AdminController@updateUser')->name('admin.user.update');
+
+
 
