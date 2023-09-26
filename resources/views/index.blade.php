@@ -117,12 +117,14 @@
 <div class="container">
   <div class="product_heading">
     <div class="bg-primary text-white p-3 d-flex justify-content-center align-items-center rounded mb-3" >
-      <h1 class="test-center">Tests</h1>
+      <h1 class="test-center no-cursor-change">Tests</h1>
     </div>
   </div>
   <div>
     @guest
-      <h6 class="error">Login to see Products</h6>
+    <div class="bg-danger text-white p-3 d-flex justify-content-center align-items-center rounded mb-3" >
+      <h6 class="error no-cursor-change">Login to see Products</h6>
+    </div>
     @else
       @php
         $pendingProducts = [];

@@ -32,6 +32,9 @@ Route::get('/contact', function () {
 Route::get('/feedback', function () {
     return view('feedback');
 });
+Route::get('/admin/feedback', function () {
+    return view('admin/feedback');
+});
 
 Route::get('/about', function () {
     return view('about');
@@ -104,7 +107,9 @@ Route::get('/admin/users', 'App\Http\Controllers\AdminController@userList')->nam
 Route::delete('/admin/user/{id}', 'App\Http\Controllers\AdminController@deleteUser')->name('admin.user.delete');
 Route::put('/admin/user/{id}', 'App\Http\Controllers\AdminController@updateUser')->name('admin.user.update');
 
-Route::get('/admin/traffic', 'App\Http\Controllers\DailyTrafficController@index')->name('admin.traffic')->middleware('check.user.role');;
+Route::get('/admin/traffic', 'App\Http\Controllers\DailyTrafficController@index')->name('admin.traffic')->middleware('check.user.role');
+Route::get('/admin/feedback', 'App\Http\Controllers\FeedbackController@feedbacks')->name('admin/feedback')->middleware('check.user.role');
+
 
 
 

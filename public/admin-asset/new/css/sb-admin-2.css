@@ -11279,3 +11279,10 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+
+
+
+.no-cursor-change {
+  user-select: none; /* Prevent text selection */
+  cursor: default !important; /* Set the cursor style to default and use !important to override other styles */
+}

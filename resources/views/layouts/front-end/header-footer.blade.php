@@ -114,7 +114,7 @@
             <div class="container ">
               <div class="row">
                 <div class="col-md-7">
-                  <div class="detail-box">
+                  <div class="detail-box no-cursor-change">
                     <h1>
                       Products Testing
                     </h1>
@@ -147,10 +147,10 @@
 
 
   <!-- info section -->
-  <section class="info_section layout_padding2">
+  <section class="info_section layout_padding2 no-cursor-change">
     <div class="container">
       <div class="info_logo">
-        <h2>
+        <h2 >
           Lab Automation
         </h2>
       </div>
