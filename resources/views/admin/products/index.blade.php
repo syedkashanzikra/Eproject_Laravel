@@ -12,6 +12,7 @@
                             <th>Product Code</th>
                             <th>Product Name</th>
                             <th class="d-none d-sm-table-cell">Product Details</th>
+                            <th class="d-none d-sm-table-cell">Users</th>
                             <th class="d-none d-md-table-cell">Product Image</th>
                             <th>Status</th>
                             <th>Action</th>
@@ -23,6 +24,7 @@
                             <td>{{ $product->product_code }}</td>
                             <td>{{ $product->product_name }}</td>
                             <td class="d-none d-sm-table-cell">{{ $product->product_details }}</td>
+                            <td class="d-none d-sm-table-cell">{{ $product->user_id }}</td>
                             <td class="d-none d-md-table-cell">
                                 <img src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}" width="100">
                             </td>
