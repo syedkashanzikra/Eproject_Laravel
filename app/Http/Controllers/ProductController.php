@@ -38,6 +38,24 @@ class ProductController extends Controller
 
         return view('index', compact('products'));
     }
+    public function rejected()
+    
+    {
+        
+        $products = Product::All();
+        
+
+        return view('admin/rejected', compact('products'));
+    }
+    public function approved()
+    
+    {
+        
+        $products = Product::All();
+        
+
+        return view('admin/approved', compact('products'));
+    }
 
 
     public function search(Request $request)

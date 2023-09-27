@@ -109,6 +109,8 @@ Route::put('/admin/user/{id}', 'App\Http\Controllers\AdminController@updateUser'
 
 Route::get('/admin/traffic', 'App\Http\Controllers\DailyTrafficController@index')->name('admin.traffic')->middleware('check.user.role');
 Route::get('/admin/feedback', 'App\Http\Controllers\FeedbackController@feedbacks')->name('admin/feedback')->middleware('check.user.role');
+Route::get('/admin/rejected', 'App\Http\Controllers\ProductController@rejected')->name('rejected');
+Route::get('/admin/approved', 'App\Http\Controllers\ProductController@approved')->name('approved');
 
 
 

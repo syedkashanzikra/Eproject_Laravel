@@ -232,42 +232,5 @@
 </div>
  </section>
   <hr>    
-  <script>
-    // Get all elements with class "open-modal"
-    var openModalLinks = document.querySelectorAll(".open-modal");
-
-  // Add click event listener to each link
-  openModalLinks.forEach(function(link) {
-    link.addEventListener("click", function() {
-      // Get the modal ID from the data-modal-id attribute
-      var modalId = this.getAttribute("data-modal-id");
-      var modal = document.getElementById(modalId);
-
-      // Open the modal
-      modal.style.display = "block";
-    });
-  });
-
-  // Get all elements with class "close"
-  var closeButtons = document.querySelectorAll(".close");
-
-  // Add click event listener to each close button
-  closeButtons.forEach(function(button) {
-    button.addEventListener("click", function() {
-      // Get the parent modal
-      var modal = this.closest(".modal");
-
-      // Close the modal
-      modal.style.display = "none";
-    });
-  });
-
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-    if (event.target.classList.contains("modal")) {
-      event.target.style.display = "none";
-    }
-  };
-
-  </script>
+  
   @endsection
