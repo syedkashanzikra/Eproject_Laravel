@@ -123,7 +123,7 @@ public function store(Request $request)
 
         $product->save();
 
-        return redirect('/')->with('success', 'Product has been added successfully!');
+        return redirect('/test')->with('success', 'Product has been added successfully!');
     }
 
     // ...

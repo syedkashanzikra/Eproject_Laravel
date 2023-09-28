@@ -3,8 +3,13 @@
 @extends('layouts.front-end.header-footer-page')
 
 @section('body-page')
+@if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
 <div class="container">
-    <h1>Add a Product</h1>
+    <h1 class="bg-dark text-light text-center">TEST YOUR PRODUCTS HERE</h1>
     <form action="{{ url('/products') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
@@ -26,4 +31,5 @@
         <button type="submit" value="Save" class="btn btn-primary">Submit</button>
     </form>
 </div>
+
 @endsection
