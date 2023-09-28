@@ -2,8 +2,10 @@
 
 @section('admin-body')
 <hr class="my-4">
-<div class="bg-success text-white p-2 d-flex justify-content-center align-items-center rounded mb-3" style="width: 2in;">
-    <h2>approved</h2>
+<div class="d-flex justify-content-center align-items-center">
+    <div class="text-dark p-3 rounded mb-3" >
+        <h2 class="text-center m-0">Approved Products</h2>
+    </div>
 </div>
 
 
@@ -13,9 +15,7 @@
 </div>
 @else
 @php
-$pendingProducts = [];
 $approvedProducts = [];
-$rejectedProducts = [];
 @endphp
 
 @foreach ($products as $product)
@@ -23,22 +23,12 @@ $rejectedProducts = [];
 @php
 $approvedProducts[] = $product;
 @endphp
-@elseif ($product->status === 'rejected')
-@php
-$rejectedProducts[] = $product;
-@endphp
-@else
-@php
-$pendingProducts[] = $product;
-@endphp
 @endif
 @endforeach
 
-<!-- Display Rejected Products -->
+<!-- Display Approved Products -->
 <div class="row">
-    @php $count = 0; @endphp
     @foreach ($approvedProducts as $product)
-    @if ($count < 3)
     <div class="col-md-6 col-lg-4">
         <!-- Adjust the number of columns as needed -->
         <div class="card product-card">
@@ -48,11 +38,16 @@ $pendingProducts[] = $product;
             <div class="card-body">
                 <h5 class="card-title">{{ $product->product_name }}</h5>
                 <p class="card-text">{{ $product->product_code }}</p>
+                
+                <td>
+                                    <!-- <a href="{{ route('admin.products.approve', ['id' => $product->id]) }}" class="btn btn-success">Approve</a> -->
+                                    <a href="{{ route('admin.products.reject', ['id' => $product->id]) }}" class="btn btn-danger">Reject</a>
+                                </td>    
+                <!-- You can add any actions for approved products here -->
+                
             </div>
         </div>
     </div>
-    @php $count++; @endphp
-    @endif
     @endforeach
 </div>
 @endif

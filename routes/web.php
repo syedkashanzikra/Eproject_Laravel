@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\AdminProductController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FeedbackController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -109,9 +110,13 @@ Route::put('/admin/user/{id}', 'App\Http\Controllers\AdminController@updateUser'
 
 Route::get('/admin/traffic', 'App\Http\Controllers\DailyTrafficController@index')->name('admin.traffic')->middleware('check.user.role');
 Route::get('/admin/feedback', 'App\Http\Controllers\FeedbackController@feedbacks')->name('admin/feedback')->middleware('check.user.role');
-Route::get('/admin/rejected', 'App\Http\Controllers\ProductController@rejected')->name('rejected');
-Route::get('/admin/approved', 'App\Http\Controllers\ProductController@approved')->name('approved');
+Route::get('/admin/rejected', 'App\Http\Controllers\ProductController@rejected')->name('rejected')->middleware('check.user.role');
+Route::get('/admin/approved', 'App\Http\Controllers\ProductController@approved')->name('approved')->middleware('check.user.role');
 
+
+Route::delete('/admin/feedback/{id}', 'App\Http\Controllers\FeedbackController@destroy')->name('admin.feedback.destroy')->middleware('check.user.role');
+Route::delete('/admin/contact/{id}', 'App\Http\Controllers\ContactController@destroy')->name('admin.contact.destroy')->middleware('check.user.role');
+Route::get('admin/contact', [ContactController::class, 'index'])->name('admin.contact')->middleware('check.user.role');
 
 
 

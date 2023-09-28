@@ -22,4 +22,23 @@ class ContactController extends Controller
 
         return redirect()->back()->with('success', 'Message sent successfully!');
     }
+    public function index()
+{
+    $contacts = Contact::all(); // Assuming you have a Contact model
+
+    return view('admin.contact', compact('contacts'));
+}
+
+
+public function destroy($id)
+{
+    // Find the feedback by ID
+    $Contact = Contact::findOrFail($id);
+
+    // Delete the feedback
+    $Contact->delete();
+
+    // Redirect back to the feedback list with a success message
+    return redirect('admin/contact')->with('success', 'Feedback has been deleted successfully.');
+}
 }

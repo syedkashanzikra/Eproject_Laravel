@@ -47,9 +47,9 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active ">
-                <a class="nav-link" href="{{ route('admin.products.index') }}">
+                <a class="nav-link" href="/">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span>Home</span></a>
             </li>
 
             <!-- Divider -->
@@ -76,6 +76,7 @@
                         <a class="collapse-item" href="{{ route('admin.traffic') }}">Check Traffic</a>
                         <a class="collapse-item" href="{{ route('admin.users') }}">Check Users</a>
                         <a class="collapse-item" href="{{ route('admin/feedback')}}">Users Feedback</a>
+                        <a class="collapse-item" href="{{ route('admin.contact')}}">Users Contact Message</a>
                         <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Other Pages:</h6>
                        

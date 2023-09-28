@@ -2,9 +2,13 @@
 
 @section('admin-body')
 <hr class="my-4">
-<div class="bg-danger text-white p-2 d-flex justify-content-center align-items-center rounded mb-3" style="width: 2in;">
-    <h2>Rejected</h2>
+<div class="d-flex justify-content-center align-items-center">
+    <div class="text-dark p-3 rounded mb-3" >
+        <h2 class="text-center m-0">Rejected Products</h2>
+    </div>
 </div>
+
+
 
 
 @guest
@@ -36,9 +40,7 @@ $pendingProducts[] = $product;
 
 <!-- Display Rejected Products -->
 <div class="row">
-    @php $count = 0; @endphp
     @foreach ($rejectedProducts as $product)
-    @if ($count < 3)
     <div class="col-md-6 col-lg-4">
         <!-- Adjust the number of columns as needed -->
         <div class="card product-card">
@@ -48,11 +50,13 @@ $pendingProducts[] = $product;
             <div class="card-body">
                 <h5 class="card-title">{{ $product->product_name }}</h5>
                 <p class="card-text">{{ $product->product_code }}</p>
+                <td>
+                    <a href="{{ route('admin.products.approve', ['id' => $product->id]) }}" class="btn btn-success">Approve</a>
+                    <!-- <a href="{{ route('admin.products.reject', ['id' => $product->id]) }}" class="btn btn-danger">Reject</a> -->
+                </td>
             </div>
         </div>
     </div>
-    @php $count++; @endphp
-    @endif
     @endforeach
 </div>
 @endif
