@@ -19,7 +19,7 @@
                 </thead>
                 <tbody>
                     @foreach ($products as $product)
-                        @if ($product->status === 'Pending' || is_null($product->status))
+                        {{-- @if ($products->status === "Pending" || is_null($product->status)) --}}
                             <tr>
                                 <td>{{ $product->product_code }}</td>
                                 <td>{{ $product->product_name }}</td>
@@ -29,14 +29,14 @@
                                     <img src="{{ asset('productsImages/' . $product->product_image) }}" alt="{{ $product->product_name }}" width="100">
                                 </td>
                                 <td>
-                                    {{ $product->status }}
-                                </td>
+                                  <h3> {{ $product->status }}
+</h3>                                 </td>
                                 <td>
                                     <a href="{{ route('admin.products.approve', ['id' => $product->id]) }}" class="btn btn-success">Approve</a>
                                     <a href="{{ route('admin.products.reject', ['id' => $product->id]) }}" class="btn btn-danger">Reject</a>
                                 </td>
                             </tr>
-                        @endif
+                        {{-- @endif --}}
                     @endforeach
                 </tbody>
             </table>

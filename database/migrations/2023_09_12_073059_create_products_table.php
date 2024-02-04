@@ -18,7 +18,7 @@ return new class extends Migration
         $table->string('product_name');
         $table->text('product_details');
         $table->string('product_image', 300)->nullable();
-        $table->enum('status', ['approved', 'rejected', 'pending'])->default('pending');        // Add the status column
+        $table->enum('status', ["approved", "rejected", "pending"])->default("pending");        // Add the status column
         $table->timestamps();
     });
 }
